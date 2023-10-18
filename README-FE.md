@@ -3,7 +3,7 @@
 ## Getting Started
 
 - keep the back-end running, open a new tab and navigate out of the back-end repository
-- `npx create-react-app@5 tuner-front-end`
+- `npm create vite@latest tuner-front-end`
 
 > _Note_: Remember to `git add`, `git commit` and `git push` regularly
 
