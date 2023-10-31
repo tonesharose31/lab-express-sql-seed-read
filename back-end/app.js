@@ -3,7 +3,6 @@
 
 // Import this at the top of your app.js
 const pgp = require('pg-promise')();
-const db = pgp(process.env.VITE_BASE_URL);
 const cors = require("cors");
 const songController = require("./controllers/songController");
 
