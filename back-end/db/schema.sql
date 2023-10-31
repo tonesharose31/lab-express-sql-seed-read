@@ -1,9 +1,12 @@
+
+DROP DATABASE IF EXISTS songs_dev;
+
 CREATE TABLE songs (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
-    artist VARLANT(255) NOT NULL,
-    album VARLANT(255),
-    time VARLANT(10),
-    is_favorite BOOLeAN
+    artist TEXT NOT NULL,
+    album TEXT,
+    time NUMERIC,
+    is_favorite BOOLEAN
 
 );
