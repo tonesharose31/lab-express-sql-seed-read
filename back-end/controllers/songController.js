@@ -6,12 +6,12 @@ const {
     createSong,
     deleteSong,
     updateSong
-} = require("../queries/songs.js");
-const reviewsController = require("./reviewsController.js");
+} = require("../queries/songs");
+// const reviewsController = require("./reviewsController.js");
 const { checkName, checkBoolean } = require("../validations/checkSongs.js");
 
 // Use the reviewsController for reviews related to songs
-songController.use("/:song_id/reviews", reviewsController);
+//songController.use("/:song_id/reviews", reviewsController);
 
 songController.get("/", async (req, res) => {
     try {
